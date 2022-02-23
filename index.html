@@ -71,11 +71,11 @@ loader.load("https://immersive-web.github.io/webxr-samples/media/gltf/reticle/re
 })
 
 let puppy;
-loader.load(assets/shiba/scene.gltf, function(gltf) {
+loader.load("https://github.com/Christopher-Caswell/Web_AR/blob/main/assets/shiba/scene.gltf", function(gltf) {
   puppy = gltf.scene;
 });
 
-// Make a new sunpuppy appear when the user taps on the screen by adding this code during initialization
+// Make a new puppy appear when the user taps on the screen by adding this code during initialization
 session.addEventListener("select", (event) => {
   if (puppy) {
     const clone = puppy.clone();
