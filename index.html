@@ -71,15 +71,19 @@ loader.load("https://immersive-web.github.io/webxr-samples/media/gltf/reticle/re
 })
 
 let puppy;
-loader.load("./assets/shiba/scene.json", function(gltf) {
-  // console.log("puppy loaded");
-  puppy = gltf.scene;
-});
-
+// loader.load("./assets/shiba/scene.json", function(gltf) {
+//   // console.log("puppy loaded");
+//   puppy = gltf.scene;
+// });
 // console.log(puppy);
 
 // Make a new puppy appear when the user taps on the screen by adding this code during initialization
 session.addEventListener("select", (event) => {
+  loader.load("./assets/shiba/scene.json", function(gltf) {
+  console.log("puppy loaded");
+  puppy = gltf.scene;
+});
+
   if (puppy) {
     const clone = puppy.clone();
     clone.position.copy(reticle.position);
