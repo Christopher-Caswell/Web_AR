@@ -14,7 +14,7 @@
 
 <!-- Starting an immersive WebXR session requires user interaction.
     We start this one with a simple button. -->
-<button onclick="activateXR()">Start Hello WebXR</button>
+<button onclick="activateXR()">Are you ready to post puppies?!</button>
 <script>
  
 async function activateXR() {
@@ -71,9 +71,12 @@ loader.load("https://immersive-web.github.io/webxr-samples/media/gltf/reticle/re
 })
 
 let puppy;
-loader.load("./assets/shiba/scene.gltf", function(gltf) {
+loader.load("https://github.com/Christopher-Caswell/Web_AR/main/tree/assets/shiba/scene.gltf", function(gltf) {
+  console.log("puppy loaded");
   puppy = gltf.scene;
 });
+
+console.log(puppy);
 
 // Make a new puppy appear when the user taps on the screen by adding this code during initialization
 session.addEventListener("select", (event) => {
