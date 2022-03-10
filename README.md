@@ -2,7 +2,7 @@
 
 # Web_AR
 
-<img src="../assets/img/pup.jpg" alt="shiba" width="200" height="200">
+<img src="../assets/imgs/pup.jpg" alt="shiba" width="200" height="200">
 
 ## My first foray into the world of web AR. I'm a workhorse looking for a cart. This project was a good way to get started in the world of browser based AR before tackling the next major scene. My next goal with this project is to mobilize the puppy.
 
