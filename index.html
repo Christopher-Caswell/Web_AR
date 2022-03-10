@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <title>Prepare for a Puppy Posting Pextravaganza!</title>
+  <title>Prepare for Puppies!</title>
 
   <!-- three.js -->
   <script src="https://unpkg.com/three@0.126.0/build/three.js"></script>
@@ -12,8 +12,7 @@
 </head>
 <body>
 
-<!-- Starting an immersive WebXR session requires user interaction.
-    We start this one with a simple button. -->
+<!-- Start an immersive WebXR session with a button -->
 <button onclick="activateXR()">Are you ready to post puppies?!</button>
 <script>
  
@@ -71,11 +70,6 @@ loader.load("https://immersive-web.github.io/webxr-samples/media/gltf/reticle/re
 })
 
 let puppy;
-// loader.load("./assets/shiba/scene.json", function(gltf) {
-//   // console.log("puppy loaded");
-//   puppy = gltf.scene;
-// });
-// console.log(puppy);
 
 // Make a new puppy appear when the user taps on the screen by adding this code during initialization
 session.addEventListener("select", (event) => {
