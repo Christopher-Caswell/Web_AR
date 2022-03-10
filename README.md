@@ -1,8 +1,8 @@
 <div align="center">
-
-# Web_AR
-
+# An Invasion of AR Puppies!
 <img src="./assets/imgs/pup.jpg" alt="shiba">
+</div>
+<div align="left">
 
 ## My first foray into the world of web AR. I'm a workhorse looking for a cart. This project was a good way to get started in the world of browser based AR before tackling the next major scene. My next goal with this project is to mobilize the puppy.
 
@@ -15,4 +15,7 @@
 ## The model used is based on ["Shiba"](https://sketchfab.com/3d-models/shiba-faef9fe5ace445e7b2989d1c1ece361c) by [zixisun02](https://sketchfab.com/dogerlo) licensed under [CC-BY-4.0](http://creativecommons.org/licenses/by/4.0/)
 
 [My LinkedIn](https://www.linkedin.com/in/deccaswell)
+<br>
+<br>
+
 [My Portfolio](https://github.com/thisdoesntexistyet)
